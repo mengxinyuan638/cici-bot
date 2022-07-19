@@ -1,9 +1,11 @@
 from nonebot import on_notice
 from nonebot.typing import T_State
-from nonebot.adapters import Bot, Event
+from nonebot.adapters import Bot
 from nonebot.adapters.onebot.v11 import Message
-from nonebot.adapters.onebot.v11 import GroupIncreaseNoticeEvent,GroupDecreaseNoticeEvent
-
+from nonebot.adapters.onebot.v11 import GroupIncreaseNoticeEvent
+'''
+入群欢迎
+'''
 welcom=on_notice()
 
 @welcom.handle()

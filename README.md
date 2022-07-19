@@ -12,7 +12,9 @@
 
 ## 描述
 
-一款基于[NoneBot2](https://v2.nonebot.dev/)的群管机器人，本仓库仅提供插件源码，并未打包pip，但也不允许私自打包。转载或打包前请联系作者。本仓库版权属于萌新源
+一款基于[NoneBot2](https://v2.nonebot.dev/)的群管机器人，请先参考官方文档下载安装Nonebot2
+
+本仓库仅提供插件源码，并未打包pip，但也不允许私自打包。转载或打包前请联系作者。本仓库版权属于萌新源
 
 ## 使用
 由于本仓库并未打包pip，所以请复制源代码至`./nb2/src/plugins`路径下
@@ -49,7 +51,7 @@
 │      write.py
 │      __init__.py
 │
-└─store						金币商城
+├─store						金币商城
 │       search.py
 │       source.py
 │       use.py

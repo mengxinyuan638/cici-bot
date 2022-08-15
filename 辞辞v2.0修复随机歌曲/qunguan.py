@@ -267,5 +267,5 @@ async def send_night():
 
 
 if scheduler:
-    scheduler.add_job ( send_morning, "cron", hour=m_hour, minute=m_minute, id="fire_morning" )  # 早上推送
-    scheduler.add_job ( send_night, "cron", hour=n_hour, minute=n_minute, id="fire_night" )  # 晚上推送
+    scheduler.add_job ( send_morning, "cron", hour=m_hour, minute=m_minute, id="send_morning" )  # 早上推送
+    scheduler.add_job ( send_night, "cron", hour=n_hour, minute=n_minute, id="send_night" )  # 晚上推送

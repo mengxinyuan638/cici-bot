@@ -1,14 +1,37 @@
 <p align="center">
   <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
 </p>
+
 <div align="center">
     <h1 align="center">✨萌新源 辞辞机器人</h1>
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/python-3.7.3+-blue?style=flat-square" alt="python"><br />
-</p>
-
+	<!-- 萌新源API -->
+	<a style="margin-inline:5px" target="_blank" href="https://api.juncikeji.xyz/">
+		<img src="https://img.shields.io/badge/API-萌新源-blue?style=flat&logo=PHP" title="萌新源API">
+	</a>&emsp;
+	<!-- Gitee主页 -->
+	<a style="margin-inline:5px" target="_blank" href="https://gitee.com/meng-xinyuan-mxy">
+		<img src="https://img.shields.io/badge/Gitee-Home-blue?style=flat&logo=Gitee" title="Gitee主页">
+	</a>&emsp;
+	<!-- CSDN博客 -->
+	<a style="margin-inline:5px" target="_blank" href="https://blog.csdn.net/m0_66648798">
+		<img src="https://img.shields.io/badge/CSDN-博客-c32136?style=flat&logo=C" title="CSDN博客主页">
+	</a>&emsp;
+	<!-- 萌新源的小窝 -->
+	<a style="margin-inline:5px" target="_blank" href="http://zsy.juncikeji.xyz/">
+		<img src="https://img.shields.io/badge/Blog-个人博客-FDE6E0?style=flat&logo=Blogger" title="萌新源的小窝">
+	</a>&emsp;
+	<!-- QQ群 -->
+	<a style="margin-inline:5px" target="_blank" href="https://jq.qq.com/?_wv=1027&k=5Ot4AUXh">
+		<img src="https://img.shields.io/badge/腾讯-QQ群-0cedbe?style=flat&logo=Tencent QQ" title="QQ">
+	</a>
+	<!-- py版本 -->
+	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
+	<!-- 访客统计 -->
+	<img src="https://visitor-badge.glitch.me/badge?page_id=CiCi_Bot" alt="访客统计" /><br />
+</p></br>
 
 ## 描述
 
@@ -16,8 +39,8 @@
 
 本仓库仅提供插件源码，并未打包pip，但也不允许私自打包。转载或打包前请联系作者。本仓库版权属于萌新源
 
-## 使用
-由于本仓库并未打包pip，所以请复制源代码至`./nb2/src/plugins`路径下
+## 
+由于本仓库并未打包pip，所以请复制源代码至`./nb2/src/plugins`路径下使用
 
 ## 插件目录
 ```
@@ -27,10 +50,10 @@
 │  dog_diary.py				舔狗日记
 │  enter_group_welcome.py	入群欢迎
 │  firexN.py				QQ续火花(pnonebot_plugin_firexN)
-│  get_music.py                         网易云点歌(返回歌曲或语音)
+│  get_music.py                 网易云点歌(返回歌曲或语音)
 │  jrys.py					今日运势
 │  menu.py					菜单	
-│  qunguan.py				群管
+│  qunguan.py				群管(违禁词撤回、全员禁言、成员禁言、踢人、同意/拒绝入群申请、入群欢迎、定时推送群消息(支持enjoy表情))
 │  random_chat.py			随机聊天
 │  random_head.py			随机头像
 │  random_joke.py			随机笑话

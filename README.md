@@ -50,7 +50,7 @@
 │  dog_diary.py				舔狗日记
 │  enter_group_welcome.py	入群欢迎
 │  firexN.py				QQ续火花(pnonebot_plugin_firexN)
-│  get_music.py                 网易云点歌(返回歌曲或语音)
+│  get_music.py              网易云点歌(返回歌曲或语音)
 │  jrys.py					今日运势
 │  menu.py					菜单	
 │  qunguan.py				群管(违禁词撤回、全员禁言、成员禁言、踢人、同意/拒绝入群申请、入群欢迎、定时推送群消息(支持enjoy表情))

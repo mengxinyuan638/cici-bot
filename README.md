@@ -29,8 +29,6 @@
 	</a>
 	<!-- py版本 -->
 	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
-	<!-- 访客统计 -->
-	<img src="https://visitor-badge.glitch.me/badge?page_id=CiCi_Bot" alt="访客统计" /><br />
 </p></br>
 
 ## 描述

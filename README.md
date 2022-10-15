@@ -20,7 +20,7 @@
 		<img src="https://img.shields.io/badge/CSDN-博客-c32136?style=flat&logo=C" title="CSDN博客主页">
 	</a>&emsp;
 	<!-- 萌新源的小窝 -->
-	<a style="margin-inline:5px" target="_blank" href="http://zsy.juncikeji.xyz/">
+	<a style="margin-inline:5px" target="_blank" href="http://blog.juncikeji.xyz/">
 		<img src="https://img.shields.io/badge/Blog-个人博客-FDE6E0?style=flat&logo=Blogger" title="萌新源的小窝">
 	</a>&emsp;
 	<!-- QQ群 -->
@@ -29,8 +29,6 @@
 	</a>
 	<!-- py版本 -->
 	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
-	<!-- 访客统计 -->
-	<img src="https://visitor-badge.glitch.me/badge?page_id=CiCi_Bot" alt="访客统计" /><br />
 </p></br>
 
 ## 描述

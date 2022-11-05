@@ -43,17 +43,8 @@
 
 
 
-# 辞辞虚拟形象
-
-![image-20221105131803468](https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png)
-
-
-
-![image-20221105131925279](https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png)
-
-
-
-![image-20221105131955675](https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png)
+## 辞辞虚拟形象
+<div><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" style="zoom: 50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" style="zoom:50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" style="zoom:50%;" /></div>
 
 ## 插件目录
 ```
@@ -108,9 +99,9 @@
 
 QQ群：934541995
 
-# 更新日志
+## 更新日志
 
-**注：**本日志从v2.2版本开始记录，过往版本就不记录了
+**注**本日志从v2.2版本开始记录，过往版本就不记录了
 
 ------
 

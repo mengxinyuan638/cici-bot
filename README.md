@@ -44,7 +44,7 @@
 
 
 ## 辞辞虚拟形象
-<div><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" style="zoom: 50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" style="zoom:50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" style="zoom:50%;" /></div>
+<div style="display: inline-block"><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" style="zoom: 50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" style="zoom:50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" style="zoom:50%;" /></div>
 
 ## 插件目录
 ```

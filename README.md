@@ -31,7 +31,12 @@
 	<!-- py版本 -->
 	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
 </p></br>
-<div align="center"><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" width="200px" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" width="200px" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" width="200px" /></div>
+
+<div align="center">
+    <img src="https://gitee.com/yevin_bot/cici-bot/raw/master/img/virtual_01.png" width="200px" alt="辞辞bot">
+<img src="https://gitee.com/yevin_bot/cici-bot/raw/master/img/virtual_02.png" width="200px" alt="辞辞bot">
+<img src="https://gitee.com/yevin_bot/cici-bot/raw/master/img/virtual_03.png" width="200px" alt="辞辞bot">
+</div>
 
 ## 描述
 

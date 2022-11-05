@@ -1,6 +1,7 @@
 <p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
+  <a href="https://v2.nonebot.dev/"><img src="https://zsy.juncikeji.xyz/i/img/icon_cici.png" width="200" height="200" alt="辞辞bot"></a>
 </p>
+
 
 <div align="center">
     <h1 align="center">✨萌新源 辞辞机器人</h1>
@@ -39,6 +40,20 @@
 
 ## 使用
 由于本仓库并未打包pip，所以请复制源代码至`./nb2/src/plugins`路径下
+
+
+
+# 辞辞虚拟形象
+
+![image-20221105131803468](https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png)
+
+
+
+![image-20221105131925279](https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png)
+
+
+
+![image-20221105131955675](https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png)
 
 ## 插件目录
 ```
@@ -92,4 +107,15 @@
 本仓库由萌新源制作，以及sevin、张时贰共同维护
 
 QQ群：934541995
+
+# 更新日志
+
+**注：**本日志从v2.2版本开始记录，过往版本就不记录了
+
+------
+
+2022/11/5  v2.2
+
+- 修复诸多问题，例如疫情查询的“目前”这类用词不当，修改为累计
+- 修复禁言，用户可以自定义禁言时间例如 禁@某某 【禁言时间】
 

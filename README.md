@@ -31,6 +31,8 @@
 	<!-- py版本 -->
 	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
 </p></br>
+<center><div style="display: inline-block"><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" style="zoom: 50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" style="zoom:50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" style="zoom:50%;" /></div></center>
+
 
 ## 描述
 
@@ -42,9 +44,6 @@
 由于本仓库并未打包pip，所以请复制源代码至`./nb2/src/plugins`路径下
 
 
-
-## 辞辞虚拟形象
-<div><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" style="zoom: 50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" style="zoom:50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" style="zoom:50%;" /></div>
 
 ## 插件目录
 ```

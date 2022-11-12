@@ -5,8 +5,8 @@
 
 <div align="center">
     <h1 align="center">✨萌新源 辞辞机器人</h1>
+     <h1 align="center">🎂生日:2022-2-28</h1>
 </div>
-
 <p align="center">
 	<!-- 萌新源API -->
 	<a style="margin-inline:5px" target="_blank" href="https://api.juncikeji.xyz/">
@@ -31,7 +31,8 @@
 	<!-- py版本 -->
 	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
 </p></br>
-<center><div style="display: inline-block"><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" style="zoom: 50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" style="zoom:50%;" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" style="zoom:50%;" /></div></center>
+<div align="center"><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131803468.png" alt="image-20221105131803468" width="200px" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131925279.png" alt="image-20221105131925279" width="200px" /><img src="https://zsy.juncikeji.xyz/i/img/image-20221105131955675.png" alt="image-20221105131955675" width="200px" /></div>
+
 
 
 ## 描述

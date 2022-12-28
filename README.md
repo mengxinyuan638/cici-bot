@@ -72,7 +72,8 @@
 │  translate.py				翻译
 │  view advertise.py		公告
 │  xingzuo_luck.py			星座运势
-│  yuanshen_search.py		元神角色查询
+│  yuanshen_search.py		原神角色查询
+|  system_type.py			查看系统信息
 │
 ├─choujiang					抽奖
 │      __init__.py
@@ -90,12 +91,10 @@
 │       use.py
 │       write.py
 │       __init__.py
-├─  CS_search.py			测试类，未完成功能
-├─  CS_抽奖.py				测试类，未完成功能        
-├─  Test.py					Test为测试文件
-├─  Test_权限测试.py
-├─  Test_禁言测试.py
-└─  Test_私聊权限.py        
+├─stamp
+|		__init__.py
+├-------tem[该文件夹请移动到bot根目录下]
+|	   |	mxy.html(邮件模板)
 ```
 
 ## 贡献
@@ -105,7 +104,7 @@ QQ群：934541995
 
 ## 更新日志
 
-**注**本日志从v2.2版本开始记录，过往版本就不记录了
+**注**:本日志从v2.2版本开始记录，过往版本就不记录了
 
 ------
 
@@ -124,3 +123,8 @@ QQ群：934541995
 2022/12/22  v2.4
 
 - 修复ICP备案查询
+
+2022/12/28  v2.5
+
+- 更新stamp发信模块
+- 更新查看系统信息插件

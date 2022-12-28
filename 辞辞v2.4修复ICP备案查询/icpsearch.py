@@ -14,6 +14,7 @@ from nonebot import on_keyword
 from nonebot.typing import T_State
 from nonebot.adapters.onebot.v11 import GroupMessageEvent, Bot, Message, Event
 import requests,json
+import stamp
 
 icpsearch = on_keyword ( {'#ICP'} )
 

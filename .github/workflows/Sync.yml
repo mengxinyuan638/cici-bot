@@ -13,6 +13,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: git@github.com:mengxinyuan638/cici-bot.git
+          source-repo: https://github.com/mengxinyuan638/cici-bot.git
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@gitee.com:yevin_bot/cici-bot.git
+          destination-repo: https://gitee.com/yevin_bot/cici-bot.git

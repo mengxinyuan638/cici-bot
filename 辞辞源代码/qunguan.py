@@ -31,9 +31,7 @@ warnings.filterwarnings ( "ignore" )
 
 
 # 撤回消息
-che = on_keyword (
-    {'沙雕', '妈的','操你妈', '操你', '加vx','傻逼', 'SB', 'sb', '脑瘫', 'CNM',
-     'CNm', 'CnM', 'Cnm', 'cNM', 'cNm', 'cnM'} )
+che = on_keyword ({'沙雕', '妈的','操你妈', '操你', '加vx','傻逼', 'SB', 'sb', '脑瘫', 'CNM','CNm', 'CnM', 'Cnm', 'cNM', 'cNm', 'cnM'} )
 all_ban = on_regex ( pattern = r'^开启全禁$', priority=1, block=True, permission=SUPERUSER | GROUP_ADMIN | GROUP_OWNER )
 all_unban = on_regex ( pattern = r'^关闭全禁$', priority=1, block=True, permission=SUPERUSER | GROUP_ADMIN | GROUP_OWNER )
 alone_ban = on_keyword ( "禁", priority=1, block=True, permission=SUPERUSER | GROUP_ADMIN | GROUP_OWNER )
@@ -117,7 +115,7 @@ async def apply_msg(bot: Bot, event: GroupRequestEvent, state: T_State):
     flag_id = event.flag  # 申请进群的flag
     global type_id
     type_id = event.sub_type  # 请求信息的类型
-    await group_apply.finish ( message=f'有人申请进群\nQQ:{apply_id}\n验证消息:{message}\n同意/拒绝' )
+    await group_apply.finish ( message=f'有人申请进群\nQQ:{apply_id}\n验证消息:{message}\n同意/拒绝申请' )
 
 
 # 同意申请入群
@@ -133,8 +131,7 @@ async def agree(bot: Bot, event: GroupMessageEvent, state: T_State):
 # 拒绝入群
 @disagree_apply.handle ()
 async def sn(bot: Bot, event: GroupMessageEvent, state: T_State):
-    await bot.set_group_add_request ( flag=flag_id, sub_type=type_id, approve=False,
-                                      reason='机器人自动审批，如有误判请联系群主或其他管理员' )
+    await bot.set_group_add_request ( flag=flag_id, sub_type=type_id, approve=False,reason='机器人自动审批，如有误判请联系群主或其他管理员' )
 
 
 # 踢出群聊
@@ -201,7 +198,7 @@ try:
     assert send_time_moring is not None
 except (AttributeError, AssertionError):
     send_time_moring = "14 50"
-    send_time_night = "22 0"
+    send_time_night = "20 07"
 m_hour, m_minute = send_time_moring.split ( " " )
 n_hour, n_minute = send_time_night.split ( " " )
 

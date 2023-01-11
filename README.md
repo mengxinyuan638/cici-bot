@@ -27,10 +27,13 @@
 	<!-- QQ群 -->
 	<a style="margin-inline:5px" target="_blank" href="https://jq.qq.com/?_wv=1027&k=5Ot4AUXh">
 		<img src="https://img.shields.io/badge/腾讯-QQ群-0cedbe?style=flat&logo=Tencent QQ" title="QQ">
-	</a>
+	</a>&emsp;
 	<!-- py版本 -->
-	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">
+	<img src="https://img.shields.io/badge/python-3.7.3+-blue" alt="python">&emsp;
+	<img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT">&emsp;
 </p></br>
+
+
 
 <div align="center">
     <img src="https://gitee.com/yevin_bot/cici-bot/raw/master/img/virtual_01.png" width="200px" alt="辞辞bot">
@@ -128,3 +131,7 @@ QQ群：934541995
 
 - 更新stamp发信模块
 - 更新查看系统信息插件
+
+2023/1/11  v2.6
+
+- 更新退群通报

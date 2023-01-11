@@ -1,7 +1,6 @@
 from nonebot import on_regex
 from nonebot.typing import T_State
 from nonebot.adapters.onebot.v11 import GroupMessageEvent,Bot,Message
-from stamp import Stmp_send
 import requests
 '''
 每日一言 调用API https://api.juncikeji.xyz/api/mryy.php

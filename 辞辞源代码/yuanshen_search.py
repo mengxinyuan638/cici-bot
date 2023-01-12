@@ -13,21 +13,21 @@ import requests
 
 '''
 原神角色查询 调用API https://wanghun.top/api/v5/yuanshen.php?msg=xxx
-命令:#元神+角色名字
+命令:#原神+角色名字
 '''
-yuanshen = on_keyword ( {'#原神'} )
+yuanshen = on_keyword({'#原神角色'})
 
 
-@yuanshen.handle ()
+@yuanshen.handle()
 async def characte(bot: Bot, event: Event, state: T_State):
-    ansey = str ( event.get_message () ).strip ()
-    ansec = ansey.strip ( '#原神' )
-    requests.packages.urllib3.disable_warnings ()  # 跳过证书验证
+    ansey = str(event.get_message()).strip()
+    ansec = ansey.strip('#原神角色')
+    requests.packages.urllib3.disable_warnings()  # 跳过证书验证
     url = f'https://wanghun.top/api/v5/yuanshen.php?msg={ansec}'
-    get_data = requests.get ( url, verify=False )  # verify=False 默认为True,设为False,这是对于证书不验证进行访问
+    get_data = requests.get(url, verify=False)  # verify=False 默认为True,设为False,这是对于证书不验证进行访问
     get_txt = get_data.text
     html = '<br>'
     msg = get_txt
     if html in get_txt:
-        msg = get_txt.replace ( html, '\n' )
-    await yuanshen.finish ( Message ( f'{msg}' ) )
+        msg = get_txt.replace(html, '\n')
+    await yuanshen.finish(Message(f'{msg}'))

@@ -16,7 +16,22 @@ store = on_regex(pattern = r'^金币商城$')
 boom = on_regex(pattern = r'^炸弹$')
 zhuce = on_regex(pattern = r'^注册商店账户$')
 bocket = on_regex(pattern = r'^查看背包$')
+qb = on_regex(pattern = r'^我的钱包$')
 
+@qb.handle()
+async def q(bot: Bot, event: GroupMessageEvent, state: T_State):
+    qq_id = event.user_id
+    num = await search_qb(qq_id)
+    await qb.send(f"您的钱包共有{num}枚金币")
+
+async def search_qb(qq_id) -> int:
+    """查询指定用户钱包余额"""
+    qq_id = str(qq_id)
+    file = 'coints.json'
+    read = open(file,'r')
+    data = json.load(read)
+    conits = int(data[qq_id])
+    return conits
 
 @store.handle()
 async def lj(bot: Bot, event: GroupMessageEvent, state: T_State):

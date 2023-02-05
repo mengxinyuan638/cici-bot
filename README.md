@@ -60,7 +60,6 @@
 │  covid_query.py			疫情查询
 │  dog_diary.py				舔狗日记
 │  enter_group_welcome.py	入群欢迎
-│  firexN.py				QQ续火花(pnonebot_plugin_firexN)
 │  get_music.py             网易云点歌(返回歌曲或语音)
 │  jrys.py					今日运势
 │  menu.py					菜单	
@@ -73,7 +72,6 @@
 │  random_sentence.py		随机一言
 │  random_talk.py			随机一句
 │  translate.py				翻译
-│  view advertise.py		公告
 │  xingzuo_luck.py			星座运势
 │  yuanshen_search.py		原神角色查询
 |  system_type.py			查看系统信息
@@ -94,10 +92,11 @@
 │       use.py
 │       write.py
 │       __init__.py
-├─stamp
-|		__init__.py
-├-------tem[该文件夹请移动到bot根目录下]
-|	   |	mxy.html(邮件模板)
+├─aiqiyi					爱奇艺榜单
+│       __init__.py
+├─bilibili_login			bilibili登录
+│       __init__.py
+
 ```
 
 ## 贡献
@@ -139,3 +138,10 @@ QQ群：934541995
 2023/1/12  v2.7
 
 - 更新原神公告
+
+2023/2/5  v2.8
+
+- 新增爱奇艺榜单
+- 新增哔哩哔哩登录
+- 修复我的钱包
+- 更换诸多功能api为萌新源api

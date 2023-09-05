@@ -3,7 +3,7 @@ from nonebot.typing import T_State
 from nonebot.adapters.onebot.v11 import GroupMessageEvent,Bot,Message
 import requests
 '''
-讲个笑话 调用API http://api.juncikeji.xyz/api/qwxh.php
+讲个笑话 调用API http://api.mxycn.cn/api/qwxh.php
 命令:讲个笑话
 '''
 random_joke = on_regex(pattern = r'^讲个笑话$')
@@ -16,7 +16,7 @@ async def joke(bot: Bot, event: GroupMessageEvent, state: T_State):
 
 
 async def get_joke():
-    url = 'http://api.juncikeji.xyz/api/qwxh.php'
+    url = 'http://api.mxycn.cn/api/qwxh.php'
     get_data = requests.get(url=url,timeout=20)
     #print(get_data)
     get_txt = get_data.text

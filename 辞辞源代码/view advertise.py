@@ -18,7 +18,7 @@ async def advertise(bot: Bot, event: GroupMessageEvent, state: T_State):
 
 
 async def advertise_API():
-    url = 'http://www.juncikeji.xyz/gg.php'
+    url = 'http://www.mxycn.cn/gg.php'
     get_data = requests.get ( url=url, timeout=20 )
     # print(get_data)
     get_txt = get_data.text

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="https://zsy.juncikeji.xyz/i/img/icon_cici.png" width="200" height="200" alt="辞辞bot"></a>
+  <a href="https://v2.nonebot.dev/"><img src="https://zsy.mxycn.cn/i/img/icon_cici.png" width="200" height="200" alt="辞辞bot"></a>
 </p>
 
 
@@ -9,7 +9,7 @@
 </div>
 <p align="center">
 	<!-- 萌新源API -->
-	<a style="margin-inline:5px" target="_blank" href="https://api.juncikeji.xyz/">
+	<a style="margin-inline:5px" target="_blank" href="https://api.mxycn.cn/">
 		<img src="https://img.shields.io/badge/API-萌新源-blue?style=flat&logo=PHP" title="萌新源API">
 	</a>&emsp;
 	<!-- Gitee主页 -->
@@ -21,7 +21,7 @@
 		<img src="https://img.shields.io/badge/CSDN-博客-c32136?style=flat&logo=C" title="CSDN博客主页">
 	</a>&emsp;
 	<!-- 萌新源的小窝 -->
-	<a style="margin-inline:5px" target="_blank" href="http://blog.juncikeji.xyz/">
+	<a style="margin-inline:5px" target="_blank" href="http://blog.mxycn.cn/">
 		<img src="https://img.shields.io/badge/Blog-个人博客-FDE6E0?style=flat&logo=Blogger" title="萌新源的小窝">
 	</a>&emsp;
 	<!-- QQ群 -->
@@ -139,7 +139,7 @@ QQ群：934541995
 
 - 更新原神公告
 
-2023/2/5  v2.8
+2023/2/5   v2.8
 
 - 新增爱奇艺榜单
 - 新增哔哩哔哩登录

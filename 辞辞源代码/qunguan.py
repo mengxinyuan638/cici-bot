@@ -205,7 +205,7 @@ n_hour, n_minute = send_time_night.split ( " " )
 
 # 随机一言API
 def hitokoto():
-    url = "https://api.juncikeji.xyz/api/mryy.php"
+    url = "https://api.mxycn.cn/api/mryy.php"
     txt = requests.get ( url )
     data = txt
     msg = data

@@ -12,7 +12,7 @@ from nonebot.adapters.onebot.v11 import GroupMessageEvent, Bot, Message, Message
 import requests
 
 '''
-动漫壁纸 调用API https://api.juncikeji.xyz/api/dmbz.php
+动漫壁纸 调用API https://api.mxycn.cn/api/dmbz.php
 正则命令:动漫壁纸
 '''
 wallpapers = on_regex ( pattern=r"^动漫壁纸$" )
@@ -26,7 +26,7 @@ async def sj(bot: Bot, event: GroupMessageEvent, state: T_State):
 
 
 async def get_wallpapers():
-    url = 'https://api.juncikeji.xyz/api/dmbz.php'
+    url = 'https://api.mxycn.cn/api/dmbz.php'
     get_data = requests.get ( url )
     img = get_data.text.strip ()
     return img

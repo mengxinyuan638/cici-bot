@@ -7,7 +7,7 @@
 要发布请注明出处
 """
 '''
-备案查询 调用API https://api.juncikeji.xyz/api/icp.php?msg=
+备案查询 调用API https://api.mxycn.cn/api/icp.php?msg=
 命令:#ICP (.*)
 '''
 from nonebot import on_keyword
@@ -23,7 +23,7 @@ icpsearch = on_keyword ( {'#ICP'} )
 async def sj(bot: Bot, event: Event, state: T_State):
     get_msg = str(event.get_message()).strip('')
     get_msg = get_msg.strip('#ICP ')
-    url = f'https://api.juncikeji.xyz/api/icp.php?msg={get_msg}'
+    url = f'https://api.mxycn.cn/api/icp.php?msg={get_msg}'
     get_data = requests.get(url=url)
     get_txt = json.loads(get_data.text)
     code = get_txt['code']

@@ -3,7 +3,7 @@ from nonebot.typing import T_State
 from nonebot.adapters.onebot.v11 import GroupMessageEvent,Bot,Message
 import requests
 '''
-每日一言 调用API https://api.juncikeji.xyz/api/mryy.php
+每日一言 调用API https://api.mxycn.cn/api/mryy.php
 命令:每日一言
 '''
 mryy = on_regex(pattern = r'^每日一言$')
@@ -16,7 +16,7 @@ async def yy(bot: Bot, event: GroupMessageEvent, state: T_State):
 
 
 async def get_yy():
-    url = 'https://api.juncikeji.xyz/api/mryy.php'
+    url = 'https://api.mxycn.cn/api/mryy.php'
     get_data = requests.get(url=url,timeout=20)
     #print(get_data)
     get_txt = get_data.text

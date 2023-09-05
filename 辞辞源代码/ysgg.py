@@ -7,7 +7,7 @@ import json
 """
 本插件功能为返回原神官网前20条公告
 提供用户公告链接，方便查看
-本插件调用api为萌新源api(https://api.juncikeji.xyz/)
+本插件调用api为萌新源api(https://api.mxycn.cn/)
 命令：
   - 原神公告 返回20条最新公告标题
   - #原神公告+序号 返回公告背景以及公告链接
@@ -21,7 +21,7 @@ ggset = on_keyword({'#原神公告'})
 @ysgg.handle()
 async def yy(bot: Bot, event: GroupMessageEvent, state: T_State):
     """本函数用作返回前20条公告，并且发送给用户"""
-    url = "https://api.juncikeji.xyz/api/yuanshen.php"  # 定义接口链接
+    url = "https://api.mxycn.cn/api/yuanshen.php"  # 定义接口链接
     header = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59"
     }
@@ -38,7 +38,7 @@ async def yy(bot: Bot, event: GroupMessageEvent, state: T_State):
 @ggset.handle()
 async def cc(bot: Bot, event: GroupMessageEvent, state: T_State):
     """本函数用作发送详情公告"""
-    url = "https://api.juncikeji.xyz/api/yuanshen.php"  # 定义接口链接
+    url = "https://api.mxycn.cn/api/yuanshen.php"  # 定义接口链接
     header = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59"
     }

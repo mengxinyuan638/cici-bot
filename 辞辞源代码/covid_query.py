@@ -13,7 +13,7 @@ import requests
 import json
 
 '''
-疫情查询 调用APIhttps://api.juncikeji.xyz/api/yiqing.php?msg=
+疫情查询 调用APIhttps://api.mxycn.cn/api/yiqing.php?msg=
 本API由萌新源API提供服务
 命令:#疫情+城市
 '''
@@ -24,7 +24,7 @@ covid = on_keyword ( {'#疫情'} )
 async def query(bot: Bot, event: Event, state: T_State):
     get_city = str ( event.get_message () ).strip ()
     get_city = get_city.strip ( '#疫情' )
-    url = f'https://api.juncikeji.xyz/api/yiqing.php?msg={get_city}'
+    url = f'https://api.mxycn.cn/api/yiqing.php?msg={get_city}'
     get_data = requests.get(url)
     msg = json.loads(get_data.text)
     conNum = msg['累计确诊']  # 赋值累计确诊人数

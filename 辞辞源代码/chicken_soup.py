@@ -5,7 +5,7 @@ import requests
 import json
 
 '''
-心灵鸡汤 调用API https://api.juncikeji.xyz/api/xljt.php
+心灵鸡汤 调用API https://api.mxycn.cn/api/xljt.php
 正则命令:心灵鸡汤
 writen by mengxinyuan at 2023/2/5
 CopyRight© 2023 萌新源
@@ -20,7 +20,7 @@ async def chicken(bot: Bot, event: GroupMessageEvent, state: T_State):
 
 
 async def get_chicken():
-    url = 'https://api.juncikeji.xyz/api/xljt.php'
+    url = 'https://api.mxycn.cn/api/xljt.php'
     get_data = requests.get(url)
     get_txt = json.loads(get_data.text)
     get_txt = get_txt['data']['content']
